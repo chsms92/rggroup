@@ -1,4 +1,8 @@
 resource "azurerm_resource_group" "rg1" {
-  name=var.rg_name
-  location=var.location
+  name="chandra-rg"
+  location="eastus"
+}
+resource "azurerm_resource_group" "rg2" {
+  name="abhi-rg"
+  location="eastus"
 }
